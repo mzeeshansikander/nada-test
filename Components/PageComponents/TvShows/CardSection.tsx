@@ -23,9 +23,11 @@ const CardSection: React.FunctionComponent<ICardSectionProps> = ({ shows }) => {
         <h3 className={Title}>Last Added Shows</h3>
         <div className={CardWrapper}>
           {shows
-            ? shows.map((card: IMedia, index: number) => (
-                <Card {...card} key={index} />
-              ))
+            ? shows
+                .slice(0, 20)
+                .map((card: IMedia, index: number) => (
+                  <Card {...card} key={index} />
+                ))
             : null}
         </div>
       </div>

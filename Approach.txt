@@ -1,6 +1,6 @@
 • Tech-Stack: 
     1. Next.js 
-    2. Tailwind
+    2. SCSS
     3. TypeScript.
 
 • Why Next?    
