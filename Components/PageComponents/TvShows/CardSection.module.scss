@@ -1,0 +1,31 @@
+@import "../../../styles/settings/settings";
+
+.Container {
+  position: absolute;
+  top: 15rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  width: 90%;
+}
+
+.Title {
+  color: $color-primary-text;
+  margin-bottom: 1.5rem;
+}
+
+.CardWrapper {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 2rem;
+}
+
+@media (max-width: 475px) {
+  .Container {
+    position: unset;
+    margin: 2rem 0 2rem 2rem;
+  }
+  .CardWrapper {
+    grid-template-columns: repeat(2, 120px);
+  }
+}

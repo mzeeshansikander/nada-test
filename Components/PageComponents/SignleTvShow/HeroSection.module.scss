@@ -1,0 +1,63 @@
+@import "../../../styles/settings/settings";
+
+.Container {
+  background-color: $color-secondary;
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+}
+
+.Wrapper {
+  width: 60%;
+  margin: 2rem auto 5rem 2rem;
+  @media (max-width: 1200px) {
+    width: 100%;
+    margin-right: 2rem;
+  }
+}
+
+.Title {
+  color: $color-primary-text;
+  margin-bottom: 1rem;
+}
+
+.DetailSection {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+    & > img {
+      width: 100%;
+    }
+  }
+}
+
+.Content {
+  margin-left: 2rem;
+  & > p {
+    color: $color-secondary-text;
+    font-weight: 600;
+  }
+  @media (max-width: 600px) {
+    margin-left: 0;
+  }
+}
+
+.RatingStack {
+  display: flex;
+  align-items: center;
+  & > p {
+    font-weight: 600;
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .Banner {
+    padding: 2rem 0 0 0;
+  }
+  .Wrapper {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,37 @@
+• Tech-Stack: 
+    1. Next.js 
+    2. Tailwind
+    3. TypeScript.
+
+• Why Next?    
+    1. Server Side Rendering.
+    2. Using Next.JS for Image Optimization.
+    3. Clean & Efficient way of routing.
+    4. Lazy Load Component, Suspense (Also available in React). 
+    5. Code Splitting for minimum build size.
+    6. Dynamic page routing & handling.
+
+• Project breakdown: 
+
+I will create a Higher order component from where all components will be managed rather than from App.ts
+
+• Fonts: 
+    Jost, google fonts.
+
+• Theme Colors:
+    Primary: #FFFFFF
+    Secondary: #F5F5F5
+    primaryText: #000000
+    secondaryText:
+
+• Pages: 
+    1. Home ( All Tv Shows ).
+    2. Home/[slug] (Single Page a Tv show).
+
+• Components:
+    1. Movie Card.
+    2. Banner
+    3. Table 
+    4. Footer
+
+

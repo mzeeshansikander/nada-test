@@ -1,0 +1,33 @@
+@import "../../../styles/settings/settings";
+
+.Banner {
+  background-color: #dfd9d9;
+  padding: 4rem 0 10rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.Wrapper {
+  margin-left: 4rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  & > p {
+    color: $color-secondary-text;
+    font-weight: 500;
+  }
+}
+
+.Title {
+  color: $color-primary-text;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 475px) {
+  .Banner {
+    padding: 2rem 0 0 0;
+  }
+  .Wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

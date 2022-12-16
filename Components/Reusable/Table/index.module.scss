@@ -1,0 +1,32 @@
+@import "../../../styles/settings/settings";
+
+.Table {
+  width: 40%;
+  margin: 2rem 2rem;
+}
+
+.TableView {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  margin-top: 2rem;
+  border-bottom: 1px solid;
+  min-height: 60px;
+  & > p {
+    min-width: 40%;
+    margin-right: 10px;
+  }
+  & > span {
+    color: $color-secondary-text;
+  }
+  & > img {
+    margin-bottom: 10px;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Table {
+    width: 90%;
+  }
+}

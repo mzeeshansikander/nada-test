@@ -1,0 +1,7 @@
+.TableContainer {
+  display: flex;
+  flex-wrap: wrap;
+  & > :first-of-type {
+    margin-right: 1rem;
+  }
+}
